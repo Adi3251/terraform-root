@@ -13,7 +13,7 @@ terraform {
      bucket         = "mydev-project-terraform-sample-batch-3334"
      key            = "infra/terraform.tfstate"
      region         = "us-east-1"
-     dynamodb_table = "terraform-lock"
+     dynamodb_table = "my-dynamodb-table"
      encrypt        = true
    }
 }
